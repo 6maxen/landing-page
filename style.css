@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    color: white;
+}
+
+.header a, .header ul {
+    list-style: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.slide1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+}
+
+.slide1 img {
+    margin-left: auto;
+}
+
+.slide1 .title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.slide1 .subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 40px 20px 0px;
+}
+
+.slide1 button {
+    background-color: #3882f6;
+    padding: 5px 30px;
+    border: solid 1px white;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+}
+
+.slide2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.slide2 .title {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.slide2 .container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto
+}
+
+.slide2 .container .box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+}
+
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide2 .subtext {
+    margin: 10px 30px;
+    text-align: center;
+}
+
+.slide2 .box1 .box {
+    border: 5px solid rgb(104, 104, 222);
+    border-radius: 10px;
+}
+
+.slide2 .box2 .box {
+    border: 5px solid rgb(255, 73, 73);
+    border-radius: 10px;
+}
+
+.slide2 .box3 .box {
+    border: 5px solid rgb(88, 195, 88);
+    border-radius: 10px;
+}
+
+.slide2 .box4 .box {
+    border: 5px solid rgb(233, 197, 36);
+    border-radius: 10px;
+}
+
+.slide3 {
+    background-color: #e5e7eb;
+    padding: 80px 250px;
+}
+
+.slide3 .quote {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.slide3 .author {
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.slide4 .container {
+    margin: 100px;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.slide4 .title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.slide4 button {
+    background-color: #3882f6;
+    padding: 8px 30px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    border: 3px solid white;
+    margin-left: auto;
+}
+
+.slide5 {
+    background-color: #1f2937;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: smaller;
+}
